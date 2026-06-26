@@ -9,9 +9,9 @@ import { services, reasons, stats, projects } from "@/lib/site-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ArAndTech — Εγκαταστάσεις Οπτικών Ινών, FTTH & Δίκτυα" },
-      { name: "description", content: "Η ArAndTech παρέχει εξειδικευμένες υπηρεσίες FTTH, εγκαταστάσεις οπτικών ινών, κατασκευή δικτύων και τεχνικά έργα με πανελλαδική κάλυψη." },
-      { property: "og:title", content: "ArAndTech — Οπτικές Ίνες & FTTH" },
+      { title: "ARANDTECH — Εγκαταστάσεις Οπτικών Ινών, FTTH & Δίκτυα" },
+      { name: "description", content: "Η ARANDTECH παρέχει εξειδικευμένες υπηρεσίες FTTH, εγκαταστάσεις οπτικών ινών, κατασκευή δικτύων και τεχνικά έργα με πανελλαδική κάλυψη." },
+      { property: "og:title", content: "ARANDTECH — Οπτικές Ίνες & FTTH" },
       { property: "og:description", content: "Αξιόπιστος συνεργάτης σε έργα οπτικών ινών, δικτύων και τεχνικής υποστήριξης." },
       { property: "og:url", content: "/" },
     ],
