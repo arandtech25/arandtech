@@ -62,8 +62,8 @@ function ContactPage() {
 
           <Reveal delay={120}>
             <div className="space-y-5">
-              <InfoCard icon={Phone} label="Τηλέφωνο" value="+30 210 000 0000" href="tel:+302100000000" />
-              <InfoCard icon={Mail} label="Email" value="info@arandtech.gr" href="mailto:info@arandtech.gr" />
+              <InfoCard icon={Phone} label="Τηλέφωνο" value="+30 210 3000721" href="tel:+302103000721" />
+              <InfoCard icon={Mail} label="Email" value="arandtech25@gmail.com" href="mailto:arandtech25@gmail.com" />
               <InfoCard icon={MapPin} label="Διεύθυνση" value="Αθήνα, Ελλάδα — Πανελλαδική κάλυψη" />
 
               <div className="rounded-3xl bg-[image:var(--gradient-navy)] p-6 text-white shadow-[var(--shadow-card)]">

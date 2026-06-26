@@ -50,8 +50,8 @@ export function SiteFooter() {
         <div>
           <h4 className="text-white font-semibold mb-4">Επικοινωνία</h4>
           <ul className="space-y-3 text-sm">
-            <li className="flex gap-3"><Phone className="h-4 w-4 mt-0.5 text-[color:var(--orange)] shrink-0" /><span>+30 210 000 0000</span></li>
-            <li className="flex gap-3"><Mail className="h-4 w-4 mt-0.5 text-[color:var(--orange)] shrink-0" /><span>info@arandtech.gr</span></li>
+            <li className="flex gap-3"><Phone className="h-4 w-4 mt-0.5 text-[color:var(--orange)] shrink-0" /><span>+30 210 3000721</span></li>
+            <li className="flex gap-3"><Mail className="h-4 w-4 mt-0.5 text-[color:var(--orange)] shrink-0" /><span>arandtech25@gmail.com</span></li>
             <li className="flex gap-3"><MapPin className="h-4 w-4 mt-0.5 text-[color:var(--orange)] shrink-0" /><span>Αθήνα, Ελλάδα<br/>Πανελλαδική κάλυψη</span></li>
           </ul>
         </div>
