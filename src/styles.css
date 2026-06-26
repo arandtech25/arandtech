@@ -47,8 +47,8 @@
   --navy-deep: oklch(0.17 0.05 260);
   --navy: oklch(0.22 0.07 260);
   --navy-soft: oklch(0.32 0.06 260);
-  --orange: oklch(0.72 0.19 45);
-  --orange-glow: oklch(0.78 0.17 55);
+  --orange: oklch(0.78 0.13 230);
+  --orange-glow: oklch(0.86 0.10 220);
 
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.18 0.04 260);
@@ -60,18 +60,20 @@
   --secondary-foreground: oklch(0.22 0.07 260);
   --muted: oklch(0.96 0.005 260);
   --muted-foreground: oklch(0.5 0.02 260);
-  --accent: oklch(0.72 0.19 45);
+  --accent: oklch(0.78 0.13 230);
   --accent-foreground: oklch(0.99 0 0);
   --destructive: oklch(0.6 0.22 25);
   --destructive-foreground: oklch(0.99 0 0);
   --border: oklch(0.92 0.01 260);
   --input: oklch(0.92 0.01 260);
-  --ring: oklch(0.72 0.19 45);
+  --ring: oklch(0.78 0.13 230);
 
   --gradient-hero: linear-gradient(135deg, oklch(0.17 0.05 260 / 0.92), oklch(0.22 0.07 260 / 0.75) 60%, oklch(0.17 0.05 260 / 0.92));
   --gradient-accent: linear-gradient(135deg, var(--orange), var(--orange-glow));
   --gradient-navy: linear-gradient(160deg, var(--navy-deep), var(--navy));
   --shadow-elegant: 0 30px 60px -25px oklch(0.17 0.05 260 / 0.35);
+}
+:root {
   --shadow-glow: 0 20px 50px -15px oklch(0.72 0.19 45 / 0.45);
   --shadow-card: 0 10px 30px -15px oklch(0.17 0.05 260 / 0.18);
 }
