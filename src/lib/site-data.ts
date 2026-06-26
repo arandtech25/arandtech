@@ -54,5 +54,5 @@ export const stats: { value: number; suffix: string; label: string }[] = [
   { value: 320, suffix: "+", label: "Ολοκληρωμένα Έργα" },
   { value: 1450, suffix: "", label: "Χιλιόμετρα Δικτύου" },
   { value: 180, suffix: "+", label: "Ικανοποιημένοι Πελάτες" },
-  { value: 12, suffix: "", label: "Χρόνια Εμπειρίας" },
+  { value: 3, suffix: "", label: "Χρόνια Εμπειρίας" },
 ];
