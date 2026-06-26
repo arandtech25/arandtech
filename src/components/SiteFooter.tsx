@@ -61,7 +61,7 @@ export function SiteFooter() {
 
       <div className="border-t border-white/10">
         <div className="container-x py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/50">
-          <p>© {new Date().getFullYear()} ArAndTech. Με την επιφύλαξη παντός δικαιώματος.</p>
+          <p>© {new Date().getFullYear()} ARANDTECH. Με την επιφύλαξη παντός δικαιώματος.</p>
           <p>Σχεδιασμός & Ανάπτυξη με προσοχή στη λεπτομέρεια.</p>
         </div>
       </div>
