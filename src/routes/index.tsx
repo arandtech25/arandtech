@@ -44,8 +44,8 @@ function Home() {
               </span>
             </Reveal>
             <Reveal delay={120}>
-              <h1 className="mt-6 text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight">
-                Ar<span className="text-gradient-accent">And</span>Tech
+              <h1 className="mt-6 text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight uppercase">
+                AR<span className="text-gradient-accent">AND</span>TECH
               </h1>
             </Reveal>
             <Reveal delay={220}>
