@@ -32,7 +32,7 @@ function AboutPage() {
       <PageHero
         eyebrow="Η Εταιρεία"
         title={<>Συνεργάτης σας στην <span className="text-gradient-accent">υποδομή οπτικών ινών</span>.</>}
-        subtitle="Η ArAndTech είναι μια ελληνική εταιρεία τηλεπικοινωνιακών έργων, με ειδίκευση στις οπτικές ίνες, το FTTH και τις τεχνικές υπηρεσίες πεδίου."
+        subtitle="Η ARANDTECH είναι μια ελληνική εταιρεία τηλεπικοινωνιακών έργων, με ειδίκευση στις οπτικές ίνες, το FTTH και τις τεχνικές υπηρεσίες πεδίου."
       />
 
       <section className="py-24 bg-background">
