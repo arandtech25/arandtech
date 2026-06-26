@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import logoWhite from "@/assets/logo-white.png";
 
 const links = [
   { to: "/", label: "Αρχική" },
@@ -30,13 +31,8 @@ export function SiteHeader() {
       }`}
     >
       <div className="container-x flex items-center justify-between gap-6">
-        <Link to="/" className="flex items-center gap-2 group" onClick={() => setOpen(false)}>
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-[image:var(--gradient-accent)] text-white font-display font-bold text-sm shadow-[var(--shadow-glow)] group-hover:scale-105 transition-transform">
-            A
-          </span>
-          <span className="font-display text-lg font-bold tracking-tight text-white uppercase">
-            ARANDTECH
-          </span>
+        <Link to="/" className="flex items-center gap-2 group" onClick={() => setOpen(false)} aria-label="ARANDTECH">
+          <img src={logoWhite} alt="ARANDTECH" className="h-10 w-auto group-hover:scale-105 transition-transform" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">

@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Facebook, Linkedin, Mail, MapPin, Phone } from "lucide-react";
+import logoWhite from "@/assets/logo-white.png";
 
 export function SiteFooter() {
   return (
@@ -7,10 +8,7 @@ export function SiteFooter() {
       <div className="container-x py-16 grid gap-12 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-2">
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-[image:var(--gradient-accent)] text-white font-display font-bold text-sm">
-              A
-            </span>
-            <span className="font-display text-lg font-bold text-white uppercase">ARANDTECH</span>
+            <img src={logoWhite} alt="ARANDTECH" className="h-12 w-auto" />
           </div>
           <p className="mt-4 text-sm leading-relaxed text-white/65 max-w-xs">
             Εξειδικευμένες λύσεις εγκατάστασης οπτικών ινών, δικτύων και τεχνικών
