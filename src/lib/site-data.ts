@@ -42,7 +42,7 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  { title: "Έργο FTTH Β' Φάσης - Αττική", category: "FTTH", image: ftth, desc: "Εγκατάσταση και τερματισμός οπτικών ινών σε πάνω από 4.500 οικίες, με πλήρη πιστοποίηση δικτύου.", location: "Αθήνα, Αττική", status: "Ολοκληρωμένο" },
+  { title: "Έργο FTTH Β' Φάσης - Αττική", category: "FTTH", image: ftth, desc: "Εγκατάσταση και τερματισμός οπτικών ινών με πλήρη πιστοποίηση δικτύου.", location: "Αθήνα, Αττική", status: "Ολοκληρωμένο" },
   { title: "Backbone Δίκτυο Οπτικών Ινών", category: "Fiber Infrastructure", image: infra, desc: "Υπόγεια εγκατάσταση οπτικού δακτυλίου 38 χλμ. για παροχή υπηρεσιών νέας γενιάς.", location: "Θεσσαλονίκη", status: "Ολοκληρωμένο" },
   { title: "Εγκατάσταση Data Center Network", category: "Network Installations", image: network, desc: "Δομημένη καλωδίωση και ολοκληρωμένη υποδομή δικτύου σε εμπορικό data center.", location: "Πειραιάς", status: "Ολοκληρωμένο" },
   { title: "Ηλεκτρομηχανολογικό Έργο", category: "Technical Projects", image: technical, desc: "Πλήρες ηλεκτρολογικό και μηχανολογικό έργο σε βιομηχανικές εγκαταστάσεις.", location: "Πάτρα", status: "Σε εξέλιξη" },
