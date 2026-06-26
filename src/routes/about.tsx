@@ -9,10 +9,10 @@ import fiber from "@/assets/fiber-closeup.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Η Εταιρεία — ArAndTech" },
-      { name: "description", content: "Η ArAndTech: εξειδικευμένες υπηρεσίες οπτικών ινών, FTTH και τεχνικών έργων με πανελλαδική κάλυψη και υψηλά πρότυπα ποιότητας." },
-      { property: "og:title", content: "Η Εταιρεία — ArAndTech" },
-      { property: "og:description", content: "Γνωρίστε την ArAndTech." },
+      { title: "Η Εταιρεία — ARANDTECH" },
+      { name: "description", content: "Η ARANDTECH: εξειδικευμένες υπηρεσίες οπτικών ινών, FTTH και τεχνικών έργων με πανελλαδική κάλυψη και υψηλά πρότυπα ποιότητας." },
+      { property: "og:title", content: "Η Εταιρεία — ARANDTECH" },
+      { property: "og:description", content: "Γνωρίστε την ARANDTECH." },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
