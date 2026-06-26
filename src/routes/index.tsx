@@ -92,7 +92,7 @@ function Home() {
                 className="rounded-3xl shadow-[var(--shadow-elegant)] aspect-[4/3] object-cover"
               />
               <div className="absolute -bottom-6 -right-6 hidden sm:block rounded-2xl glass-light p-5 shadow-[var(--shadow-card)]">
-                <div className="text-3xl font-display font-bold text-[color:var(--navy)]">12+</div>
+                <div className="text-3xl font-display font-bold text-[color:var(--navy)]">3+</div>
                 <div className="text-xs text-muted-foreground mt-1">Χρόνια εμπειρίας στον κλάδο</div>
               </div>
             </div>
