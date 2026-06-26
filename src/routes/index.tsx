@@ -27,7 +27,7 @@ function Home() {
       <section className="relative min-h-screen flex items-center overflow-hidden text-white">
         <img
           src={hero}
-          alt="Τεχνικοί ArAndTech εγκαθιστούν οπτικές ίνες"
+          alt="Τεχνικοί ARANDTECH εγκαθιστούν οπτικές ίνες"
           width={1920}
           height={1280}
           className="absolute inset-0 h-full w-full object-cover"
