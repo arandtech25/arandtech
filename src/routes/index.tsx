@@ -161,7 +161,7 @@ function Home() {
         </div>
         <div className="container-x relative">
           <Reveal className="max-w-2xl">
-            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Γιατί ArAndTech</span>
+            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Γιατί ARANDTECH</span>
             <h2 className="mt-4 text-4xl lg:text-5xl font-bold">Γιατί να μας επιλέξετε</h2>
             <p className="mt-5 text-white/70 text-lg">
               Συνδυάζουμε εμπειρία πεδίου, σύγχρονο εξοπλισμό και αυστηρή διαχείριση
