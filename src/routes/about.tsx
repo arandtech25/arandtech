@@ -84,7 +84,7 @@ function AboutPage() {
               <div className="text-5xl lg:text-6xl font-display font-bold text-gradient-accent">
                 <Counter to={s.value} suffix={s.suffix} />
               </div>
-              <div className="mt-3 text-sm uppercase tracking-[0.18em] text-white/60">{s.label}</div>
+              <div className="mt-3 text-sm uppercase tracking-[0.18em] text-white/60 whitespace-pre-line">{s.label}</div>
             </Reveal>
           ))}
         </div>
