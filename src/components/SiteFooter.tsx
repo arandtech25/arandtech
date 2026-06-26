@@ -42,9 +42,7 @@ export function SiteFooter() {
           <ul className="space-y-2.5 text-sm text-white/65">
             <li>Εγκαταστάσεις Οπτικών Ινών</li>
             <li>FTTH Β' & Γ' Φάση</li>
-            <li>Δίκτυα & Συντήρηση</li>
             <li>Τεχνική Υποστήριξη</li>
-            <li>Ηλεκτρολογικές Εργασίες</li>
             <li>Υπηρεσίες Υπεργολαβίας</li>
           </ul>
         </div>
