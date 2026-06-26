@@ -8,7 +8,7 @@ export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
       { title: "Επικοινωνία — ARANDTECH" },
-      { name: "description", content: "Επικοινωνήστε με την ARANDTECH for προσφορά σε έργα οπτικών ινών, FTTH, δικτύων και τεχνικών υπηρεσιών." },
+      { name: "description", content: "Επικοινωνήστε με την ARANDTECH για προσφορά σε έργα οπτικών ινών, FTTH, δικτύων και τεχνικών υπηρεσιών." },
       { property: "og:title", content: "Επικοινωνία — ARANDTECH" },
       { property: "og:description", content: "Ζητήστε προσφορά ή τεχνική υποστήριξη." },
       { property: "og:url", content: "/contact" },
