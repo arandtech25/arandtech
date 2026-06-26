@@ -20,7 +20,7 @@ export const services: Service[] = [
   { icon: Headphones, title: "Τεχνική Υποστήριξη", desc: "Άμεση τεχνική υποστήριξη, διάγνωση βλαβών και αποκατάσταση 24/7 με εξειδικευμένα συνεργεία." },
   { icon: Zap, title: "Ηλεκτρολογικές Εργασίες", desc: "Ολοκληρωμένες ηλεκτρολογικές εγκαταστάσεις και πιστοποιημένες ηλεκτρολογικές μελέτες." },
   { icon: HardHat, title: "Υπηρεσίες Υπεργολαβίας", desc: "Αξιόπιστος συνεργάτης για μεγάλους εργολάβους και παρόχους, με αυστηρή τήρηση χρονοδιαγραμμάτων." },
-  { icon: ShieldCheck, title: "Επιθεωρήσεις & Πιστοποιήσεις", desc: "Έλεγχοι, μετρήσεις OTDR και πλήρεις πιστοποιήσεις δικτύων σύμφωνα με τα διεθνή πρότυπα." },
+  { icon: ShieldCheck, title: "Επιθεωρήσεις & Μετρήσεις", desc: "Έλεγχοι, μετρήσεις OTDR." },
 ];
 
 export const reasons: { icon: LucideIcon; title: string }[] = [
@@ -54,5 +54,5 @@ export const stats: { value: number; suffix: string; label: string }[] = [
   { value: 320, suffix: "+", label: "Ολοκληρωμένα Έργα" },
   { value: 1450, suffix: "", label: "Χιλιόμετρα Δικτύου" },
   { value: 180, suffix: "+", label: "Ικανοποιημένοι Πελάτες" },
-  { value: 12, suffix: "", label: "Χρόνια Εμπειρίας" },
+  { value: 3, suffix: "", label: "Χρόνια Εμπειρίας" },
 ];
