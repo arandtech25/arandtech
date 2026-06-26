@@ -45,7 +45,7 @@ function AboutPage() {
               <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Ποιοι Είμαστε</span>
               <h2 className="mt-4 text-3xl lg:text-4xl font-bold text-[color:var(--navy-deep)]">Τεχνογνωσία που χτίζεται στο πεδίο.</h2>
               <p className="mt-6 text-muted-foreground leading-relaxed">
-                Η ArAndTech δραστηριοποιείται στον τομέα των τηλεπικοινωνιών,
+                Η ARANDTECH δραστηριοποιείται στον τομέα των τηλεπικοινωνιών,
                 παρέχοντας εξειδικευμένες υπηρεσίες εγκατάστασης οπτικών ινών,
                 δικτύων και τεχνικής υποστήριξης. Με συνέπεια, επαγγελματισμό και
                 υψηλά πρότυπα ποιότητας, προσφέρουμε αξιόπιστες λύσεις σε έργα
