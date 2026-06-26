@@ -93,7 +93,7 @@ function AboutPage() {
       <section className="py-24 bg-background">
         <div className="container-x">
           <Reveal className="max-w-2xl">
-            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Γιατί ArAndTech</span>
+            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Γιατί ARANDTECH</span>
             <h2 className="mt-4 text-3xl lg:text-4xl font-bold text-[color:var(--navy-deep)]">Γιατί να μας επιλέξετε</h2>
           </Reveal>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
