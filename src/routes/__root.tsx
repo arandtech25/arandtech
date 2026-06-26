@@ -68,10 +68,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ArAndTech — Εγκαταστάσεις Οπτικών Ινών & FTTH" },
+      { title: "ARANDTECH — Εγκαταστάσεις Οπτικών Ινών & FTTH" },
       { name: "description", content: "Εξειδικευμένες υπηρεσίες εγκατάστασης οπτικών ινών, FTTH, δικτύων και τεχνικών έργων με πανελλαδική κάλυψη." },
-      { name: "author", content: "ArAndTech" },
-      { property: "og:site_name", content: "ArAndTech" },
+      { name: "author", content: "ARANDTECH" },
+      { property: "og:site_name", content: "ARANDTECH" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
