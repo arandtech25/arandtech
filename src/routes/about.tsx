@@ -9,10 +9,10 @@ import fiber from "@/assets/fiber-closeup.jpg";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "Η Εταιρεία — ArAndTech" },
-      { name: "description", content: "Η ArAndTech: εξειδικευμένες υπηρεσίες οπτικών ινών, FTTH και τεχνικών έργων με πανελλαδική κάλυψη και υψηλά πρότυπα ποιότητας." },
-      { property: "og:title", content: "Η Εταιρεία — ArAndTech" },
-      { property: "og:description", content: "Γνωρίστε την ArAndTech." },
+      { title: "Η Εταιρεία — ARANDTECH" },
+      { name: "description", content: "Η ARANDTECH: εξειδικευμένες υπηρεσίες οπτικών ινών, FTTH και τεχνικών έργων με πανελλαδική κάλυψη και υψηλά πρότυπα ποιότητας." },
+      { property: "og:title", content: "Η Εταιρεία — ARANDTECH" },
+      { property: "og:description", content: "Γνωρίστε την ARANDTECH." },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
@@ -32,7 +32,7 @@ function AboutPage() {
       <PageHero
         eyebrow="Η Εταιρεία"
         title={<>Συνεργάτης σας στην <span className="text-gradient-accent">υποδομή οπτικών ινών</span>.</>}
-        subtitle="Η ArAndTech είναι μια ελληνική εταιρεία τηλεπικοινωνιακών έργων, με ειδίκευση στις οπτικές ίνες, το FTTH και τις τεχνικές υπηρεσίες πεδίου."
+        subtitle="Η ARANDTECH είναι μια ελληνική εταιρεία τηλεπικοινωνιακών έργων, με ειδίκευση στις οπτικές ίνες, το FTTH και τις τεχνικές υπηρεσίες πεδίου."
       />
 
       <section className="py-24 bg-background">
@@ -45,7 +45,7 @@ function AboutPage() {
               <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Ποιοι Είμαστε</span>
               <h2 className="mt-4 text-3xl lg:text-4xl font-bold text-[color:var(--navy-deep)]">Τεχνογνωσία που χτίζεται στο πεδίο.</h2>
               <p className="mt-6 text-muted-foreground leading-relaxed">
-                Η ArAndTech δραστηριοποιείται στον τομέα των τηλεπικοινωνιών,
+                Η ARANDTECH δραστηριοποιείται στον τομέα των τηλεπικοινωνιών,
                 παρέχοντας εξειδικευμένες υπηρεσίες εγκατάστασης οπτικών ινών,
                 δικτύων και τεχνικής υποστήριξης. Με συνέπεια, επαγγελματισμό και
                 υψηλά πρότυπα ποιότητας, προσφέρουμε αξιόπιστες λύσεις σε έργα
@@ -84,7 +84,7 @@ function AboutPage() {
               <div className="text-5xl lg:text-6xl font-display font-bold text-gradient-accent">
                 <Counter to={s.value} suffix={s.suffix} />
               </div>
-              <div className="mt-3 text-sm uppercase tracking-[0.18em] text-white/60">{s.label}</div>
+              <div className="mt-3 text-sm uppercase tracking-[0.18em] text-white/60 whitespace-pre-line">{s.label}</div>
             </Reveal>
           ))}
         </div>
@@ -93,7 +93,7 @@ function AboutPage() {
       <section className="py-24 bg-background">
         <div className="container-x">
           <Reveal className="max-w-2xl">
-            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Γιατί ArAndTech</span>
+            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Γιατί ARANDTECH</span>
             <h2 className="mt-4 text-3xl lg:text-4xl font-bold text-[color:var(--navy-deep)]">Γιατί να μας επιλέξετε</h2>
           </Reveal>
           <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

@@ -25,5 +25,6 @@ export function Counter({ to, suffix = "", duration = 1800 }: { to: number; suff
     return () => io.disconnect();
   }, [to, duration]);
 
+  if (to === 0) return null;
   return <span ref={ref}>{val.toLocaleString("el-GR")}{suffix}</span>;
 }

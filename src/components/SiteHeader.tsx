@@ -34,8 +34,8 @@ export function SiteHeader() {
           <span className="grid h-9 w-9 place-items-center rounded-lg bg-[image:var(--gradient-accent)] text-white font-display font-bold text-sm shadow-[var(--shadow-glow)] group-hover:scale-105 transition-transform">
             A
           </span>
-          <span className="font-display text-lg font-bold tracking-tight text-white">
-            ArAndTech
+          <span className="font-display text-lg font-bold tracking-tight text-white uppercase">
+            ARANDTECH
           </span>
         </Link>
 

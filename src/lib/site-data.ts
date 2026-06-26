@@ -17,7 +17,7 @@ export const services: Service[] = [
   { icon: Cable, title: "Εγκαταστάσεις Οπτικών Ινών", desc: "Πλήρης εγκατάσταση, τερματισμός και κόλληση οπτικών ινών με σύγχρονο εξοπλισμό fusion splicing." },
   { icon: Network, title: "FTTH Β' & Γ' Φάση", desc: "Εξειδικευμένες εργασίες FTTH Β' και Γ' φάσης για παρόχους τηλεπικοινωνιών σε όλη την Ελλάδα." },
   { icon: Wrench, title: "Κατασκευή & Συντήρηση Δικτύων", desc: "Σχεδιασμός, κατασκευή και προληπτική συντήρηση δικτύων χαλκού και οπτικών ινών." },
-  { icon: Headphones, title: "Τεχνική Υποστήριξη", desc: "Άμεση τεχνική υποστήριξη, διάγνωση βλαβών και αποκατάσταση 24/7 με εξειδικευμένα συνεργεία." },
+  { icon: Headphones, title: "Τεχνική Υποστήριξη", desc: "Άμεση τεχνική υποστήριξη, διάγνωση βλαβών και αποκατάσταση με εξειδικευμένα συνεργεία." },
   { icon: Zap, title: "Ηλεκτρολογικές Εργασίες", desc: "Ολοκληρωμένες ηλεκτρολογικές εγκαταστάσεις και πιστοποιημένες ηλεκτρολογικές μελέτες." },
   { icon: HardHat, title: "Υπηρεσίες Υπεργολαβίας", desc: "Αξιόπιστος συνεργάτης για μεγάλους εργολάβους και παρόχους, με αυστηρή τήρηση χρονοδιαγραμμάτων." },
   { icon: ShieldCheck, title: "Επιθεωρήσεις & Μετρήσεις", desc: "Έλεγχοι, μετρήσεις OTDR." },
@@ -42,7 +42,7 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  { title: "Έργο FTTH Β' Φάσης - Αττική", category: "FTTH", image: ftth, desc: "Εγκατάσταση και τερματισμός οπτικών ινών σε πάνω από 4.500 οικίες, με πλήρη πιστοποίηση δικτύου.", location: "Αθήνα, Αττική", status: "Ολοκληρωμένο" },
+  { title: "Έργο FTTH Β' Φάσης - Αττική", category: "FTTH", image: ftth, desc: "Εγκατάσταση και τερματισμός οπτικών ινών με πλήρη πιστοποίηση δικτύου.", location: "Αθήνα, Αττική", status: "Ολοκληρωμένο" },
   { title: "Backbone Δίκτυο Οπτικών Ινών", category: "Fiber Infrastructure", image: infra, desc: "Υπόγεια εγκατάσταση οπτικού δακτυλίου 38 χλμ. για παροχή υπηρεσιών νέας γενιάς.", location: "Θεσσαλονίκη", status: "Ολοκληρωμένο" },
   { title: "Εγκατάσταση Data Center Network", category: "Network Installations", image: network, desc: "Δομημένη καλωδίωση και ολοκληρωμένη υποδομή δικτύου σε εμπορικό data center.", location: "Πειραιάς", status: "Ολοκληρωμένο" },
   { title: "Ηλεκτρομηχανολογικό Έργο", category: "Technical Projects", image: technical, desc: "Πλήρες ηλεκτρολογικό και μηχανολογικό έργο σε βιομηχανικές εγκαταστάσεις.", location: "Πάτρα", status: "Σε εξέλιξη" },
@@ -51,8 +51,8 @@ export const projects: Project[] = [
 ];
 
 export const stats: { value: number; suffix: string; label: string }[] = [
-  { value: 320, suffix: "+", label: "Ολοκληρωμένα Έργα" },
-  { value: 1450, suffix: "", label: "Χιλιόμετρα Δικτύου" },
-  { value: 180, suffix: "+", label: "Ικανοποιημένοι Πελάτες" },
+  { value: 1000, suffix: "+", label: "Ολοκληρωμένα Έργα" },
+  { value: 0, suffix: "", label: "\n" },
+  { value: 500, suffix: "+", label: "Ικανοποιημένοι Πελάτες" },
   { value: 3, suffix: "", label: "Χρόνια Εμπειρίας" },
 ];

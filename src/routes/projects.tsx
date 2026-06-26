@@ -10,9 +10,9 @@ const categories = ["Όλα", "FTTH", "Fiber Infrastructure", "Network Installat
 export const Route = createFileRoute("/projects")({
   head: () => ({
     meta: [
-      { title: "Έργα — ArAndTech" },
-      { name: "description", content: "Επιλεγμένα έργα οπτικών ινών, FTTH, δικτύων και τεχνικών εγκαταστάσεων από την ArAndTech." },
-      { property: "og:title", content: "Έργα — ArAndTech" },
+      { title: "Έργα — ARANDTECH" },
+      { name: "description", content: "Επιλεγμένα έργα οπτικών ινών, FTTH, δικτύων και τεχνικών εγκαταστάσεων από την ARANDTECH." },
+      { property: "og:title", content: "Έργα — ARANDTECH" },
       { property: "og:description", content: "Πορτφόλιο έργων οπτικών ινών και δικτύων." },
       { property: "og:url", content: "/projects" },
     ],

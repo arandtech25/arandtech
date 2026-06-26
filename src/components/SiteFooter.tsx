@@ -10,7 +10,7 @@ export function SiteFooter() {
             <span className="grid h-9 w-9 place-items-center rounded-lg bg-[image:var(--gradient-accent)] text-white font-display font-bold text-sm">
               A
             </span>
-            <span className="font-display text-lg font-bold text-white">ArAndTech</span>
+            <span className="font-display text-lg font-bold text-white uppercase">ARANDTECH</span>
           </div>
           <p className="mt-4 text-sm leading-relaxed text-white/65 max-w-xs">
             Εξειδικευμένες λύσεις εγκατάστασης οπτικών ινών, δικτύων και τεχνικών
@@ -61,7 +61,7 @@ export function SiteFooter() {
 
       <div className="border-t border-white/10">
         <div className="container-x py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/50">
-          <p>© {new Date().getFullYear()} ArAndTech. Με την επιφύλαξη παντός δικαιώματος.</p>
+          <p>© {new Date().getFullYear()} ARANDTECH. Με την επιφύλαξη παντός δικαιώματος.</p>
           <p>Σχεδιασμός & Ανάπτυξη με προσοχή στη λεπτομέρεια.</p>
         </div>
       </div>

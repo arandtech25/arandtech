@@ -7,9 +7,9 @@ import { services } from "@/lib/site-data";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Υπηρεσίες — ArAndTech" },
+      { title: "Υπηρεσίες — ARANDTECH" },
       { name: "description", content: "Οπτικές ίνες, FTTH Β' & Γ' φάσης, δίκτυα, τεχνική υποστήριξη, ηλεκτρολογικά και πιστοποιήσεις." },
-      { property: "og:title", content: "Υπηρεσίες — ArAndTech" },
+      { property: "og:title", content: "Υπηρεσίες — ARANDTECH" },
       { property: "og:description", content: "Ολοκληρωμένες υπηρεσίες οπτικών ινών και δικτύων." },
       { property: "og:url", content: "/services" },
     ],

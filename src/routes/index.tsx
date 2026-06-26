@@ -9,9 +9,9 @@ import { services, reasons, stats, projects } from "@/lib/site-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ArAndTech — Εγκαταστάσεις Οπτικών Ινών, FTTH & Δίκτυα" },
-      { name: "description", content: "Η ArAndTech παρέχει εξειδικευμένες υπηρεσίες FTTH, εγκαταστάσεις οπτικών ινών, κατασκευή δικτύων και τεχνικά έργα με πανελλαδική κάλυψη." },
-      { property: "og:title", content: "ArAndTech — Οπτικές Ίνες & FTTH" },
+      { title: "ARANDTECH — Εγκαταστάσεις Οπτικών Ινών, FTTH & Δίκτυα" },
+      { name: "description", content: "Η ARANDTECH παρέχει εξειδικευμένες υπηρεσίες FTTH, εγκαταστάσεις οπτικών ινών, κατασκευή δικτύων και τεχνικά έργα με πανελλαδική κάλυψη." },
+      { property: "og:title", content: "ARANDTECH — Οπτικές Ίνες & FTTH" },
       { property: "og:description", content: "Αξιόπιστος συνεργάτης σε έργα οπτικών ινών, δικτύων και τεχνικής υποστήριξης." },
       { property: "og:url", content: "/" },
     ],
@@ -27,7 +27,7 @@ function Home() {
       <section className="relative min-h-screen flex items-center overflow-hidden text-white">
         <img
           src={hero}
-          alt="Τεχνικοί ArAndTech εγκαθιστούν οπτικές ίνες"
+          alt="Τεχνικοί ARANDTECH εγκαθιστούν οπτικές ίνες"
           width={1920}
           height={1280}
           className="absolute inset-0 h-full w-full object-cover"
@@ -44,8 +44,8 @@ function Home() {
               </span>
             </Reveal>
             <Reveal delay={120}>
-              <h1 className="mt-6 text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight">
-                Ar<span className="text-gradient-accent">And</span>Tech
+              <h1 className="mt-6 text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight uppercase">
+                AR<span className="text-gradient-accent">AND</span>TECH
               </h1>
             </Reveal>
             <Reveal delay={220}>
@@ -106,7 +106,7 @@ function Home() {
                 Τεχνογνωσία στην υποδομή <span className="text-gradient-accent">οπτικών ινών</span>.
               </h2>
               <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-                Η ArAndTech δραστηριοποιείται στον τομέα των τηλεπικοινωνιών,
+                Η ARANDTECH δραστηριοποιείται στον τομέα των τηλεπικοινωνιών,
                 παρέχοντας εξειδικευμένες υπηρεσίες εγκατάστασης οπτικών ινών,
                 δικτύων και τεχνικής υποστήριξης. Με συνέπεια, επαγγελματισμό και
                 υψηλά πρότυπα ποιότητας, προσφέρουμε αξιόπιστες λύσεις σε έργα
@@ -161,7 +161,7 @@ function Home() {
         </div>
         <div className="container-x relative">
           <Reveal className="max-w-2xl">
-            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Γιατί ArAndTech</span>
+            <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Γιατί ARANDTECH</span>
             <h2 className="mt-4 text-4xl lg:text-5xl font-bold">Γιατί να μας επιλέξετε</h2>
             <p className="mt-5 text-white/70 text-lg">
               Συνδυάζουμε εμπειρία πεδίου, σύγχρονο εξοπλισμό και αυστηρή διαχείριση
@@ -191,7 +191,7 @@ function Home() {
               <div className="text-5xl lg:text-6xl font-display font-bold text-gradient-accent">
                 <Counter to={s.value} suffix={s.suffix} />
               </div>
-              <div className="mt-3 text-sm uppercase tracking-[0.18em] text-muted-foreground">{s.label}</div>
+              <div className="mt-3 text-sm uppercase tracking-[0.18em] text-muted-foreground whitespace-pre-line">{s.label}</div>
             </Reveal>
           ))}
         </div>
