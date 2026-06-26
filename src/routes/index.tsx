@@ -197,42 +197,6 @@ function Home() {
         </div>
       </section>
 
-      {/* PROJECTS PREVIEW */}
-      <section className="py-24 lg:py-32 bg-[color:var(--muted)]/40">
-        <div className="container-x">
-          <div className="flex flex-wrap items-end justify-between gap-6">
-            <Reveal className="max-w-xl">
-              <span className="text-xs font-semibold tracking-[0.2em] uppercase text-[color:var(--orange)]">Έργα</span>
-              <h2 className="mt-4 text-4xl lg:text-5xl font-bold text-[color:var(--navy-deep)]">Επιλεγμένο πορτφόλιο</h2>
-            </Reveal>
-            <Reveal>
-              <Link to="/projects" className="inline-flex items-center gap-2 text-sm font-semibold text-[color:var(--navy)] hover:text-[color:var(--orange)] transition-colors">
-                Όλα τα έργα <ArrowRight className="h-4 w-4" />
-              </Link>
-            </Reveal>
-          </div>
-          <div className="mt-12 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projects.slice(0, 3).map((p, i) => (
-              <Reveal key={p.title} delay={i * 80}>
-                <article className="group relative overflow-hidden rounded-3xl bg-card shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-elegant)] transition-all duration-500">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img src={p.image} alt={p.title} width={1200} height={900} loading="lazy" className="h-full w-full object-cover group-hover:scale-110 transition-transform duration-[1200ms]" />
-                    <span className="absolute top-4 left-4 rounded-full bg-[image:var(--gradient-accent)] px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-white">{p.category}</span>
-                  </div>
-                  <div className="p-6">
-                    <h3 className="font-semibold text-[color:var(--navy-deep)]">{p.title}</h3>
-                    <p className="mt-2 text-sm text-muted-foreground line-clamp-2">{p.desc}</p>
-                    <div className="mt-4 flex items-center justify-between text-xs text-muted-foreground">
-                      <span>{p.location}</span>
-                      <span className="font-medium text-[color:var(--orange)]">{p.status}</span>
-                    </div>
-                  </div>
-                </article>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-24 bg-background">
