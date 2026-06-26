@@ -32,7 +32,9 @@ export function SiteHeader() {
     >
       <div className="container-x flex items-center justify-between gap-6">
         <Link to="/" className="flex items-center gap-2 group" onClick={() => setOpen(false)} aria-label="ARANDTECH">
-          <img src={logoWhite} alt="ARANDTECH" className="h-10 w-auto group-hover:scale-105 transition-transform" />
+          <span className="inline-flex items-center justify-center rounded-full bg-white p-1.5 shadow-md group-hover:scale-105 transition-transform">
+            <img src={logoWhite} alt="ARANDTECH" className="h-9 w-auto [filter:invert(1)]" />
+          </span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-1">
