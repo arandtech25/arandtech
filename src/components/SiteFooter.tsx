@@ -29,7 +29,6 @@ export function SiteFooter() {
           <ul className="space-y-2.5 text-sm">
             <li><Link to="/" className="hover:text-[color:var(--orange)] transition-colors">Αρχική</Link></li>
             <li><Link to="/services" className="hover:text-[color:var(--orange)] transition-colors">Υπηρεσίες</Link></li>
-            <li><Link to="/projects" className="hover:text-[color:var(--orange)] transition-colors">Έργα</Link></li>
             <li><Link to="/about" className="hover:text-[color:var(--orange)] transition-colors">Η Εταιρεία</Link></li>
             <li><Link to="/contact" className="hover:text-[color:var(--orange)] transition-colors">Επικοινωνία</Link></li>
           </ul>
