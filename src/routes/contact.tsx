@@ -82,21 +82,6 @@ function ContactPage() {
           </Reveal>
         </div>
 
-        <div className="container-x mt-16">
-          <Reveal>
-            <div className="rounded-3xl overflow-hidden shadow-[var(--shadow-card)] border border-border/60">
-              <iframe
-                title="Google Maps - ARANDTECH"
-                src="https://www.google.com/maps?q=Athens,Greece&output=embed"
-                width="100%"
-                height="420"
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="block w-full"
-              />
-            </div>
-          </Reveal>
-        </div>
       </section>
     </>
   );
