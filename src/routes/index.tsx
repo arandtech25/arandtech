@@ -4,7 +4,7 @@ import hero from "@/assets/hero.jpg";
 import fiberCloseup from "@/assets/fiber-closeup.jpg";
 import { Reveal } from "@/components/Reveal";
 import { Counter } from "@/components/Counter";
-import { services, reasons, stats, projects } from "@/lib/site-data";
+import { services, reasons, stats } from "@/lib/site-data";
 
 export const Route = createFileRoute("/")({
   head: () => ({

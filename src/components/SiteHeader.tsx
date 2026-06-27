@@ -6,7 +6,6 @@ import logo from "@/assets/logo.png";
 const links = [
   { to: "/", label: "Αρχική" },
   { to: "/services", label: "Υπηρεσίες" },
-  { to: "/projects", label: "Έργα" },
   { to: "/about", label: "Η Εταιρεία" },
   { to: "/contact", label: "Επικοινωνία" },
 ] as const;
