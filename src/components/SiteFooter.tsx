@@ -18,7 +18,7 @@ export function SiteFooter() {
             <a href="#" aria-label="Facebook" className="grid h-10 w-10 place-items-center rounded-full bg-white/5 hover:bg-[color:var(--orange)] transition-colors">
               <Facebook className="h-4 w-4" />
             </a>
-            <a href="#" aria-label="LinkedIn" className="grid h-10 w-10 place-items-center rounded-full bg-white/5 hover:bg-[color:var(--orange)] transition-colors">
+            <a href="https://www.linkedin.com/company/arandtech/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="grid h-10 w-10 place-items-center rounded-full bg-white/5 hover:bg-[color:var(--orange)] transition-colors">
               <Linkedin className="h-4 w-4" />
             </a>
           </div>
