@@ -1,8 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState, type FormEvent } from "react";
-import { Mail, MapPin, Phone, Facebook, Linkedin, Send, CheckCircle2 } from "lucide-react";
+import { Mail, MapPin, Phone, Facebook, Linkedin, Send, CheckCircle2, Loader2 } from "lucide-react";
 import { PageHero } from "@/components/PageHero";
 import { Reveal } from "@/components/Reveal";
+import { useServerFn } from "@tanstack/react-start";
+import { sendContactEmail } from "@/lib/contact.functions";
 
 export const Route = createFileRoute("/contact")({
   head: () => ({
@@ -19,13 +21,34 @@ export const Route = createFileRoute("/contact")({
 });
 
 function ContactPage() {
-  const [sent, setSent] = useState(false);
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const send = useServerFn(sendContactEmail);
 
-  function onSubmit(e: FormEvent<HTMLFormElement>) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setSent(true);
-    (e.currentTarget as HTMLFormElement).reset();
-    setTimeout(() => setSent(false), 6000);
+    const form = e.currentTarget;
+    const fd = new FormData(form);
+    setStatus("sending");
+    setErrorMsg(null);
+    try {
+      await send({
+        data: {
+          name: String(fd.get("name") ?? ""),
+          email: String(fd.get("email") ?? ""),
+          phone: String(fd.get("phone") ?? ""),
+          subject: String(fd.get("subject") ?? ""),
+          message: String(fd.get("message") ?? ""),
+        },
+      });
+      setStatus("sent");
+      form.reset();
+      setTimeout(() => setStatus("idle"), 6000);
+    } catch (err) {
+      console.error(err);
+      setStatus("error");
+      setErrorMsg(err instanceof Error ? err.message : "Κάτι πήγε στραβά");
+    }
   }
 
   return (
@@ -54,10 +77,16 @@ function ContactPage() {
                 <textarea id="message" name="message" required rows={5} className="mt-2 w-full rounded-xl border border-input bg-background px-4 py-3 text-sm outline-none transition focus:border-[color:var(--orange)] focus:ring-2 focus:ring-[color:var(--orange)]/20 resize-none" />
               </div>
 
-              <button type="submit" className="mt-8 inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-accent)] px-7 py-3.5 text-sm font-semibold text-white shadow-[var(--shadow-glow)] hover:scale-[1.02] transition-transform">
-                {sent ? (<><CheckCircle2 className="h-4 w-4" /> Στάλθηκε επιτυχώς</>) : (<>Αποστολή Μηνύματος <Send className="h-4 w-4" /></>)}
+              <button type="submit" disabled={status === "sending"} className="mt-8 inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-accent)] px-7 py-3.5 text-sm font-semibold text-white shadow-[var(--shadow-glow)] hover:scale-[1.02] transition-transform disabled:opacity-70 disabled:hover:scale-100">
+                {status === "sending" ? (<><Loader2 className="h-4 w-4 animate-spin" /> Αποστολή...</>) :
+                 status === "sent" ? (<><CheckCircle2 className="h-4 w-4" /> Στάλθηκε επιτυχώς</>) :
+                 (<>Αποστολή Μηνύματος <Send className="h-4 w-4" /></>)}
               </button>
+              {status === "error" && (
+                <p className="mt-4 text-sm text-destructive">{errorMsg ?? "Αποτυχία αποστολής. Δοκιμάστε ξανά."}</p>
+              )}
             </form>
+
           </Reveal>
 
           <Reveal delay={120}>
