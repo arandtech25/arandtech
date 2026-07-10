@@ -46,6 +46,9 @@ function Home() {
             <Reveal delay={120}>
               <h1 className="mt-6 text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight uppercase">
                 AR<span className="text-gradient-accent">AND</span>TECH
+                <span className="block text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight normal-case text-white/90 mt-4">
+                  — Εγκαταστάσεις Οπτικών Ινών &amp; FTTH
+                </span>
               </h1>
             </Reveal>
             <Reveal delay={220}>
