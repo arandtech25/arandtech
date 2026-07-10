@@ -71,6 +71,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "ARANDTECH — Εγκαταστάσεις Οπτικών Ινών & FTTH" },
       { name: "description", content: "Εξειδικευμένες υπηρεσίες εγκατάστασης οπτικών ινών, FTTH, δικτύων και τεχνικών έργων με πανελλαδική κάλυψη." },
       { name: "author", content: "ARANDTECH" },
+      { name: "google-site-verification", content: "lRw4gfvW9e_PN4wsNPBNU44AzlrnLPOrxUvBcQOItLw" },
       { property: "og:site_name", content: "ARANDTECH" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
