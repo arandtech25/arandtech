@@ -14,6 +14,22 @@ export const Route = createFileRoute("/services")({
       { property: "og:url", content: "/services" },
     ],
     links: [{ rel: "canonical", href: "/services" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@graph": services.map((s) => ({
+            "@type": "Service",
+            serviceType: s.title,
+            description: s.desc,
+            provider: { "@id": "https://arandtech.lovable.app/#organization" },
+            areaServed: "GR",
+            url: "https://arandtech.lovable.app/services",
+          })),
+        }),
+      },
+    ],
   }),
   component: ServicesPage,
 });

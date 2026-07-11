@@ -88,6 +88,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://arandtech.lovable.app/#organization",
+          name: "ARANDTECH",
+          url: "https://arandtech.lovable.app/",
+          logo: "https://storage.googleapis.com/gpt-engineer-file-uploads/nptxec1ueBQxYuW5dthvgidmIww1/social-images/social-1782472596543-logo.webp",
+          sameAs: ["https://www.linkedin.com/company/arandtech/"],
+          contactPoint: {
+            "@type": "ContactPoint",
+            telephone: "+30 210 3000721",
+            contactType: "customer service",
+            areaServed: "GR",
+            availableLanguage: ["Greek"],
+          },
+        }),
+      },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
