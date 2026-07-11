@@ -16,6 +16,27 @@ export const Route = createFileRoute("/contact")({
       { property: "og:url", content: "/contact" },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://arandtech.lovable.app/contact#business",
+          name: "ARANDTECH",
+          url: "https://arandtech.lovable.app/contact",
+          telephone: "+30 210 3000721",
+          email: "arandtech25@gmail.com",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Αθήνα",
+            addressCountry: "GR",
+          },
+          areaServed: "GR",
+          priceRange: "€€",
+        }),
+      },
+    ],
   }),
   component: ContactPage,
 });
