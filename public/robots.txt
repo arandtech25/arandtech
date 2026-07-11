@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://arandtech.lovable.app/sitemap.xml
