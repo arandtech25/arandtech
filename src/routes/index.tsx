@@ -15,7 +15,10 @@ export const Route = createFileRoute("/")({
       { property: "og:description", content: "Αξιόπιστος συνεργάτης σε έργα οπτικών ινών, δικτύων και τεχνικής υποστήριξης." },
       { property: "og:url", content: "/" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [
+      { rel: "canonical", href: "/" },
+      { rel: "preload", as: "image", href: hero, fetchpriority: "high" },
+    ],
   }),
   component: Home,
 });
@@ -30,6 +33,8 @@ function Home() {
           alt="Τεχνικοί ARANDTECH εγκαθιστούν οπτικές ίνες"
           width={1920}
           height={1280}
+          fetchpriority="high"
+          decoding="async"
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-[image:var(--gradient-hero)]" />
