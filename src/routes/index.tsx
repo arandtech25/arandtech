@@ -33,7 +33,7 @@ function Home() {
           alt="Τεχνικοί ARANDTECH εγκαθιστούν οπτικές ίνες"
           width={1920}
           height={1280}
-          fetchpriority="high"
+          fetchPriority="high"
           decoding="async"
           className="absolute inset-0 h-full w-full object-cover"
         />
