@@ -12,7 +12,7 @@ export const Route = createFileRoute("/about")({
       { title: "Η Εταιρεία — ARANDTECH" },
       { name: "description", content: "Η ARANDTECH: εξειδικευμένες υπηρεσίες οπτικών ινών, FTTH και τεχνικών έργων με πανελλαδική κάλυψη και υψηλά πρότυπα ποιότητας." },
       { property: "og:title", content: "Η Εταιρεία — ARANDTECH" },
-      { property: "og:description", content: "Γνωρίστε την ARANDTECH." },
+      { property: "og:description", content: "Γνωρίστε την ARANDTECH, την ελληνική εταιρεία εξειδικευμένων εγκαταστάσεων οπτικών ινών, FTTH και τηλεπικοινωνιακών έργων με πανελλαδική κάλυψη." },
       { property: "og:url", content: "/about" },
     ],
     links: [{ rel: "canonical", href: "/about" }],
