@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "sdk_version": "0.22.2",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "arandtech-mcp",
+      "version": "0.1.0",
+      "title": "ARANDTECH MCP"
+    },
+    "tools": [
+      {
+        "name": "list_services",
+        "title": "List services",
+        "description": "List the technical services ARANDTECH offers (fiber optic installations, FTTH phases, network construction, technical support, subcontracting, inspections and OTDR measurements).",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "list_projects",
+        "title": "List projects",
+        "description": "List ARANDTECH's showcased projects (FTTH, fiber infrastructure, network installations, technical projects) with title, category, location and status.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      },
+      {
+        "name": "get_contact_info",
+        "title": "Get contact info",
+        "description": "Return ARANDTECH's public business contact information: company name, phone, email, website and service coverage area.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": null
+      }
+    ]
+  }
+}
